@@ -26,8 +26,15 @@ pip install -r requirements.txt
 * Within the cloned repository, run ```python main.py```
 * View generated CSV files
 
-team_data.csv contains data about NHL teams
+team_data.csv contains data about teams in the NHL division, this includes:
+* Team Name
+* Venue Information
+* Division/Conference/Franchise Information
 
-player_data.csv contains data about all NHL players 
+player_data.csv contains data about all players in the NHL, this includes:
+* Player Name
+* Birth/Height/Weight Information
+* Current Team/Position/Player Play Status
+* Yearly Play Statistics (includes full hockey career)
 
 
