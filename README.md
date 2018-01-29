@@ -1,6 +1,8 @@
 # SOFE4620_Assignment1
 SOFE4620 Data Mining Assignment 1
 
+Reid Vollett, 100396565
+
 This assignment uses the undocument NHL API discovered by Kevin Sidwar (https://www.kevinsidwar.com/iot/2017/7/1/the-undocumented-nhl-stats-api)
 
 The main URL for access to the API is https://statsapi.web.nhl.com/api/v1 and requires endpoints for data retrieval
