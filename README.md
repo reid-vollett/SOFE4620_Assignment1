@@ -21,6 +21,28 @@ pip install -r requirements.txt
 ```
 * To stop the execution of the Python virtual environment, run ```deactivate```
 
+## Linux Setup
+* Install GIT if not already installed, ```apt-get install git```
+* Clone the project in a terminal
+```git clone https://github.com/reid-vollett/SOFE4620_Assignment1```
+* Open the cloned project in a terminal
+* Install the virtualenv package 
+```
+pip install virtualenv
+```
+* Create the virtual environment 
+```
+virtualenv venv
+```
+* Activate the virtual environment, and configure packages
+```
+source venv/bin/activate
+pip install -r requirements.txt
+```
+* To stop execution of the virtual environment, run
+```
+deactivate
+```
 ## Project Running
 * To run the project, open the Python virtual environment
 * Within the cloned repository, run ```python main.py```
