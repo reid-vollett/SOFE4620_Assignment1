@@ -22,6 +22,7 @@ pip install -r requirements.txt
 * To stop the execution of the Python virtual environment, run ```deactivate```
 
 ## Linux Setup
+* Install Python 3.6.3 **Note** Older version of Python not tested, but may work
 * Install GIT if not already installed, ```apt-get install git```
 * Clone the project in a terminal
 ```git clone https://github.com/reid-vollett/SOFE4620_Assignment1```
