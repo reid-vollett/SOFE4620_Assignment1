@@ -30,11 +30,26 @@ team_data.csv contains data about teams in the NHL division, this includes:
 * Team Name
 * Venue Information
 * Division/Conference/Franchise Information
+* and more
 
 player_data.csv contains data about all players in the NHL, this includes:
 * Player Name
 * Birth/Height/Weight Information
 * Current Team/Position/Player Play Status
 * Yearly Play Statistics (includes full hockey career)
+* and more
 
+**Important Note - CSV Files**
+Some data is kept as a dictionary for a few key reasons, first of which the API is not always consistent as some players may be missing statistics or have unique stats for one season (ie. https://goo.gl/nUj9Ja) and not another. The second reason to keep some data in the dictionary format is that it allows easier manipulation if/when this data is used for data processing in general use cases or in machine learning. Program readability was preffered over human readability.
 
+The following data is kept in dictionary format:
+team_data.csv
+* venue
+* division
+* conference
+* franchise
+
+player_data.csv
+* currentTeam
+* primaryPosition
+* stats
